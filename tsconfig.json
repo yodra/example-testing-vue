@@ -13,7 +13,8 @@
     "baseUrl": ".",
     "types": [
       "webpack-env",
-      "jest"
+      "jest",
+      "testing-library__jest-dom"
     ],
     "paths": {
       "@/*": [
@@ -29,10 +30,7 @@
   },
   "include": [
     "src/**/*.ts",
-    "src/**/*.tsx",
     "src/**/*.vue",
-    "**/__tests__/*.ts",
-    "**/__tests__/*.js",
     "jest.d.ts"
   ],
   "exclude": [
