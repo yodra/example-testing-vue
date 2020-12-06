@@ -6,7 +6,7 @@
 </template>
 
 <script lang="ts">
-import Vue from "vue";
+import Vue from 'vue';
 import Counter from '@/components/counter/Counter.vue';
 
 export default Vue.extend({
