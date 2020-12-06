@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png" />
-    <Counter/>
+    <Counter />
   </div>
 </template>
 
@@ -10,7 +10,7 @@ import Vue from 'vue';
 import Counter from '@/components/counter/Counter.vue';
 
 export default Vue.extend({
-  name: "App",
+  name: 'App',
   components: {
     Counter
   }
