@@ -15,25 +15,35 @@ const Template = (args, { argTypes }) => ({
   template: '<my-button @onClick="onClick" v-bind="$props" />'
 });
 
+const defaultArgs = {
+  label: 'Button'
+};
+
 export const Primary = Template.bind({});
 Primary.args = {
-  primary: true,
-  label: 'Button'
+  ...defaultArgs,
+  primary: true
 };
 
 export const Secondary = Template.bind({});
 Secondary.args = {
-  label: 'Button'
+  ...defaultArgs
 };
 
 export const Large = Template.bind({});
 Large.args = {
-  size: 'large',
-  label: 'Button'
+  ...defaultArgs,
+  size: 'large'
 };
 
 export const Small = Template.bind({});
 Small.args = {
-  size: 'small',
-  label: 'Button'
+  ...defaultArgs,
+  size: 'small'
+};
+
+export const NoAccessible = Template.bind({});
+NoAccessible.args = {
+  ...defaultArgs,
+  backgroundColor: '#535758'
 };
