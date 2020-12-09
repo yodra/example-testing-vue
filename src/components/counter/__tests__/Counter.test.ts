@@ -3,7 +3,7 @@ import Counter from '@/components/counter/Counter.vue';
 import { fireEvent } from '@testing-library/dom';
 import { render, screen } from '@testing-library/vue';
 
-describe('Counter.vue', () => {
+describe('Counter vue-test-utils', () => {
   test('should render component', () => {
     const wrapper = mount(Counter);
 
