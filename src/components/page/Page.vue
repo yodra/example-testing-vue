@@ -33,9 +33,7 @@
       </ul>
       <p>
         Get a guided tutorial on component-driven development at
-        <a href="https://www.learnstorybook.com" target="_blank" rel="noopener noreferrer"
-          >Learn Storybook</a
-        >
+        <a href="https://www.learnstorybook.com" target="_blank" rel="noopener noreferrer">Learn Storybook</a>
         . Read more in the
         <a href="https://storybook.js.org/docs" target="_blank" rel="noopener noreferrer">docs</a>
         .
@@ -60,7 +58,7 @@
 
 <script>
 import './page.css';
-import MyHeader from './Header.vue';
+import MyHeader from '../header/Header.vue';
 
 export default {
   name: 'my-page',
@@ -69,8 +67,8 @@ export default {
 
   props: {
     user: {
-      type: Object,
-    },
+      type: Object
+    }
   },
 
   methods: {
@@ -82,7 +80,7 @@ export default {
     },
     onCreateAccount() {
       this.$emit('onCreateAccount');
-    },
-  },
+    }
+  }
 };
 </script>

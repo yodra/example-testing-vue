@@ -1,4 +1,3 @@
-import Counter from '@/components/counter/Counter.vue';
 import Rating from '@/components/rating/Rating';
 
 export default {
@@ -10,7 +9,7 @@ export default {
 const Template = (args, { argTypes }) => ({
   props: Object.keys(argTypes),
   components: { Rating },
-  template: '<Rating/>'
+  template: '<Rating />'
 });
 
 export const ByDefault = Template.bind({});
